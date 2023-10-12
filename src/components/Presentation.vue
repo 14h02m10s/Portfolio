@@ -3,7 +3,7 @@ import PresentationItem from "./PresentationItem.vue";
 import PresentationItemSkills from "./PresentationItemSkills.vue";
 
 const cvURL =
-  "https://lebrasdejesus.github.io/Portfolio/cvfchambinaud-public.pdf";
+  "https://14h02m10s.github.io/Portfolio/CV-F-Chambinaud-Inte-Dev.pdf";
 </script>
 
 <template>
@@ -259,22 +259,7 @@ const cvURL =
   align-items: center;
   margin: 2rem 0;
 }
-/* button {
-  padding: 0.7rem 1.1rem;
-  border-radius: 2rem;
-  cursor: pointer;
-  font-size: 1.1rem;
-  border: none;
-  box-shadow: inset 0px 0px 10px 3px #26a8bf;
-  background: linear-gradient(to bottom, #5bb6c6 5%, #1897a8 100%);
-  background-color: #5bb6c6;
-  text-shadow: 0px 1px 1px #337985;
-  color: white;
-  font-weight: 600;
-  font-family: "Montserrat", sans-serif;
-} */
 
-/* test bouton debut */
 button,
 button::after {
   -webkit-transition: all 0.3s;
@@ -333,22 +318,6 @@ button:hover a {
 .btn:hover::after {
   width: 100%;
 }
-
-/* test bouton fin */
-
-/* button:hover::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  top: -1px;
-  border: 2px #337985 solid;
-  border-radius: 2rem;
-  z-index: 1;
-} */
-/* button:active {
-  position: relative;
-  top: 1px;
-} */
 p {
   font-size: 0.9rem;
   text-align: justify;
