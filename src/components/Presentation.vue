@@ -275,10 +275,7 @@ button {
   font-size: 1.1rem;
   /* border: 2px #219db2 solid; */
   border: 2px #397a89 solid;
-  /* box-shadow: inset 0px 0px 10px 3px #26a8bf; */
-  /* background: linear-gradient(to bottom, #5bb6c6 5%, #1897a8 100%); */
   background: none;
-  /* text-shadow: 0px 1px 1px #337985; */
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   position: relative;
@@ -295,7 +292,6 @@ button::after {
   content: "";
   position: absolute;
   z-index: -1;
-  /* border: 4px #ffffff solid; */
 }
 /* button:hover {
   color: #fff;

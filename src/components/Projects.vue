@@ -133,7 +133,6 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
   align-items: center;
   height: 0.7rem;
   position: relative;
-  /* margin: 0 3rem; */
   margin: 0.6rem 3rem 2rem 3rem;
 }
 h3 {
@@ -149,7 +148,6 @@ p {
 }
 .link-text {
   font-weight: 500;
-  /* font-size: 1rem; */
   box-shadow: inset 0 0 0 0 #116071;
   padding: 0 0.25rem;
   margin: 0 -0.25rem;

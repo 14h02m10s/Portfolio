@@ -9,12 +9,6 @@ export default {
     };
   },
   methods: {
-    // success() {
-    //   alert("success");
-    // },
-    // copy() {
-    //   Clipboard.copy("TEST");
-    // },
     ToggleCopied() {
       this.isCopied = !this.isCopied;
     },
@@ -96,30 +90,7 @@ export default {
         </div>
         <button type="submit" class="btn">Envoyer</button>
       </form>
-      <div class="alt-email">
-        <!-- <p>
-          Si comme moi, vous n'aimez pas les formulaires de contact, vous pouvez
-          simplement
-          <b>copier mon adresse en cliquant sur le bouton ci-dessous&nbsp;:</b>
-        </p> -->
-        <!-- <p>
-          Sinon, vous pouvez
-          <b>copier mon adresse en cliquant sur le bouton</b> :
-        </p>
-        <button
-          class="btn"
-          v-clipboard="'f.chambinaud@gmail.com'"
-          @click="ToggleCopied"
-        >
-          f.chambinaud@gmail.com
-        </button>
-        <p :class="{ copy: !isCopied, copied: isCopied }">
-          Vous avez bien copié mon adresse mail !
-        </p> -->
-        <!-- <div class="englobeur-btn-haut"> -->
 
-        <!-- </div> -->
-      </div>
       <div class="btn-return">
         <a href="#head"
           ><button class="btn-carre">
@@ -173,7 +144,6 @@ h3 {
   align-items: center;
   gap: 1.5rem;
   width: 100%;
-  /* margin-top: 3rem; */
 }
 .login-card-form-2 {
   display: flex;
@@ -244,14 +214,11 @@ button::after {
 }
 button {
   padding: 0.7rem 1.1rem;
-  /* border-radius: 0.5rem; */
   border-radius: 2rem;
   cursor: pointer;
   font-size: 1.1rem;
   /* border: 2px #219db2 solid; */
   border: 2px #397a89 solid;
-  /* box-shadow: inset 0px 0px 10px 3px #26a8bf; */
-  /* background: linear-gradient(to bottom, #5bb6c6 5%, #1897a8 100%); */
   background: none;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
@@ -300,19 +267,9 @@ p {
   text-align: justify;
   margin-bottom: 0.7rem;
 }
-/* .alt-email {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5rem;
-  width: 100%;
-  margin-top: 3rem;
-} */
 .btn-return {
   display: flex;
   justify-content: right;
-  /* align-items: center; */
   width: 100%;
   position: absolute;
   bottom: 1rem;
@@ -338,12 +295,6 @@ p {
   font-weight: 600;
   color: rgba(57, 122, 137, 0);
 }
-/* .englobeur-btn-haut {
-  display: flex;
-  justify-content: end;
-  align-items: end;
-  width: 100%;
-} */
 .btn-carre {
   width: 3.2rem;
   height: 3.2rem;

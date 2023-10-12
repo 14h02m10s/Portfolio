@@ -187,7 +187,6 @@ h1 {
     font-weight: 700;
     font-size: 1.2rem;
     text-align: left;
-    /* padding: 0.5rem; */
   }
   .blue,
   .responsive {

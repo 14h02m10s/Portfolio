@@ -15,7 +15,6 @@
 
 <style scoped>
 .item {
-  /* margin-top: 1rem; */
   display: flex;
   position: relative;
   padding: 3rem 3rem 0rem 3rem;
@@ -34,9 +33,7 @@
   align-items: center;
   height: 0.7rem;
   position: relative;
-  /* margin: 0.6rem 3rem 2rem 3rem; */
   margin-bottom: 2.5rem;
-  /* width: 100%; */
 }
 h3 {
   font-family: "Montserrat", sans-serif;
@@ -46,23 +43,11 @@ h3 {
   padding: 0rem 0.7rem;
   position: absolute;
 }
-/* .texteprez {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+
 @media (min-width: 768px) {
   .item {
     padding: 3rem 6rem 0rem 6rem;
   }
-  /* .details {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
-  /* .texteprez {
-    margin: 0 3rem;
-  } */
 }
 @media (min-width: 1135px) {
   .texteprez {
