@@ -48,53 +48,15 @@ const cvURL =
               <a href="#contact" class="link-text"><b>contacter</b></a>
               si vous pensez que mon profil peut vous intéresser.
             </p>
-            <!-- <button class="btn">
-              <a :href="cvURL" download="fchambinaud.pdf" target="_blank"
-                >Plus de détails sur mon cv</a
-              >
-            </button> -->
           </div>
         </div>
       </PresentationItem>
       <div class="container-button">
-        <!-- <button>
-          <a
-            href="https://raw.githubusercontent.com/lebrasdejesus/Portfolio/10155ac4d053bbb40de05423900a778f1c3b5b13/src/assets/CV-FCHAMBINAUD.pdf"
-            target="_blank"
-            >Télécharger mon cv</a
-          >
-        </button> -->
         <button class="btn">
-          <!-- <a href="/cvfchambinaud-public.pdf" target="_blank"
-            >Ouvrir mon cv depuis public</a
-          > -->
-          <!-- <a href="../../public/cvfchambinaud-public.pdf " target="_blank"
-            >Ouvrir mon cv depuis public</a
-          > -->
           <a :href="cvURL" download="fchambinaud.pdf" target="_blank"
             >Plus de détails sur mon cv</a
           >
         </button>
-        <!-- <button class="btn">Bouton 2</button> -->
-        <!-- <button>
-          <a href="src/assets/cvfchambinaud.pdf" target="_blank"
-            >Voir un autre cv</a
-          >
-        </button>
-        <button>
-          <a href="src/assets/Suzuki-NB.jpg" target="_blank">Voir un jpg</a>
-        </button>
-        <button>
-          <a href="../assets/Suzuki-NB.jpg" download>DL un jpg</a>
-        </button>
-        <button>
-          <a href="../assets/cvfchambinaud.pdf" download>DL mon cv++</a>
-        </button>
-        <button>
-          <a href="../assets/cvfchambinaud.pdf" target="_blank"
-            >afficher mon cv++</a
-          >
-        </button> -->
       </div>
 
       <div class="super-container-hardSkills">
