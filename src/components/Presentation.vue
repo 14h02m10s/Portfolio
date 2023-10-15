@@ -53,9 +53,10 @@ const cvURL =
       </PresentationItem>
       <div class="container-button">
         <button class="btn">
-          <a :href="cvURL" download="fchambinaud.pdf" target="_blank"
+          <!-- <a :href="cvURL" download="fchambinaud.pdf" target="_blank"
             >Plus de détails sur mon cv</a
-          >
+          > -->
+          <a :href="cvURL" target="_blank">Plus de détails sur mon cv</a>
         </button>
       </div>
 
