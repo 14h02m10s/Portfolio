@@ -2,8 +2,7 @@
 import PresentationItem from "./PresentationItem.vue";
 import PresentationItemSkills from "./PresentationItemSkills.vue";
 
-const cvURL =
-  "https://14h02m10s.github.io/Portfolio/CV-F-Chambinaud-Inte-Dev.pdf";
+const cvURL = "https://14h02m10s.github.io/Portfolio/CV_3W_PF1_compressed.pdf";
 </script>
 
 <template>
